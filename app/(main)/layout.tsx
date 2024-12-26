@@ -4,7 +4,7 @@ export default function MainLayout({ children, }: Readonly<{ children: React.Rea
     return (
         <div className="flex flex-col">
             <MainHeader/>
-            <div className="m-hero" style={{ backgroundImage: `url(./5640508.jpg)` }}>{children}</div>
+            <div className="m-hero flex" style={{ backgroundImage: `url(./5640508.jpg)` }}>{children}</div>
 
         </div>
     );

@@ -1,8 +1,8 @@
 
 export default function Home() {
   return (
-    <div className="font-[family-name:var(--font-geist-sans)]">
-      <main className="flex relative">
+    <div className="font-[family-name:var(--font-geist-sans)] mx-auto">
+      <main className="flex relative h-full">
 
           <div className="grid grid-cols-3 w-full h-full top-0 left-0 absolute items-center">
               <img src="./1.png" className="col-start-1"/>
